@@ -1,4 +1,4 @@
-package Pttrn;
+package Pttrun;
 import java.util.*;
 
 public class Pyramid{
@@ -7,8 +7,9 @@ public class Pyramid{
         System.out.println("Enter the number of lines");
         int l = Sc.nextInt();
         for(int line = 1; line <=l ;line++){
-            for(int py =1 ; py<= line ; py++){
+            for(int py = l; py<= line ; py++){
                 System.out.print(py);
+                
 
             } 
             System.out.println();
